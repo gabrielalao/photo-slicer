@@ -11,6 +11,7 @@
 		"source": "https://github.com/bcit-ci/CodeIgniter"
 	},
 	"require": {
+		"silex/silex": "~1.1",
 		"php": ">=5.3.7"
 	},
 	"suggest": {
