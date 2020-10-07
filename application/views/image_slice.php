@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php if(isset($original_img)){
             		echo $original_img;
             }else{
-	            echo '<img src="'.base_url().'images/original_preview.png" class="Original Image" alt="">';
+	            echo '<img src="'.().'images/original_preview.png" class="Original Image" alt="">';
             }?>
           </div>
           
@@ -103,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php if(isset($slice_img)){
             		echo $slice_img;
             }else{
-	            echo '<img src="'.base_url().'images/crop_preview.png" class="Original Image" alt="">';
+	            echo '<img src="'.().'images/crop_preview.png" class="Original Image" alt="">';
             }?>
             
             

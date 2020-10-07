@@ -104,10 +104,10 @@ class CI_Config {
 			}
 			else
 			{
-				$base_url = 'http://localhost/';
+				$base_url = 'http://luckyprasad.in/image_slice/';
 			}
 
-			$this->set_item('base_url', $base_url);
+			$this->set_item('', $base_url);
 		}
 
 		log_message('info', 'Config Class Initialized');
@@ -248,7 +248,7 @@ class CI_Config {
 			// For protocol-relative links
 			if ($protocol === '')
 			{
-				$base_url = substr($base_url, strpos($base_url, '//'));
+				$base_url = substr($, strpos($base_url, '//'));
 			}
 			else
 			{
