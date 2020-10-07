@@ -1,0 +1,36 @@
+  
+			    ======: DOCUMENTATION :=========
+
+Requirements: 
+-------------
+	 
+    		--> 	xamp / wamp
+		--> 	web-browser
+		-->	php 5+
+
+STEPS:
+-------
+
+     		--> Unzip the main file (image_slicer.zip)
+		
+		--> Put it in (htdocs folder for xamp) / (www folder for wamp)
+
+SPECIFICATIONS:
+---------------
+		
+		--> Easily slices the image which you want to slice
+
+		--> Slices are in form of Horizontal / Vertical / Grid
+
+PROCESS :  
+---------
+
+		--> Selsect Image (GPEG,PNG) 
+		--> Select numbers of slices
+		--> Select the type of slices like( Horizontal/vertical/grid)
+		--> Click on slice button
+		--> You can see the slices
+		--> Click on download button for download all the slices in zip file
+
+
+
